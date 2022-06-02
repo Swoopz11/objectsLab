@@ -41,7 +41,7 @@ let dog = {
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
-//console.log(dog.color)
+//console.log(dog['color'])
 
 
 
@@ -58,8 +58,7 @@ let favoriteThings = {
   person: 'wife',
   book: 'hatchet',
   movie: 'godzilla',
-  holiday: 'thanksgiving',
-
+  holiday: 'thanksgiving'
 }
 
 
@@ -69,7 +68,8 @@ let favoriteThings = {
 
 //Code here
 favoriteThings.car = 'truck'
-// console.log(favoriteThings)
+favoriteThings.show = 'Rick and Morty'
+//console.log(favoriteThings)
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
